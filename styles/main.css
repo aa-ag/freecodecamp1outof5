@@ -1,0 +1,65 @@
+body {
+	background-color: hsl(0, 0%, 96%);
+	font-family: sans-serif;
+}
+
+.wrapper {
+	background-color: #ffff;
+	margin: 4vh 2vw 4vh 2vw;
+	padding: 2vh 2vw 2vh 2vw;
+	border-radius: 6px;
+	box-shadow: 20px 20px 50px grey;
+}
+
+header {
+	text-align: center;
+}
+
+#tribute-ih1o, #img-div {
+  float: center;
+}
+
+h1, #wikipedia {
+	padding-top: 6vh;
+	border-bottom: 2px solid orange;
+	display: inline-block;
+  line-height: 1;
+	bottom-margin: 0;
+}
+
+h2 {
+	font-size: large;
+	font-style: italic;
+	color: grey;
+}
+
+#image {
+	text-align: center;
+  max-width: 100%;
+  height: auto;
+	border-radius: 4px;
+	box-shadow: 0 0px 1px 1px orange;
+}
+
+figcaption {
+	float: right;
+	background-color: #ffff;
+	color: silver;
+}
+
+#tribute-info {
+		max-width: 65%;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+a {
+	color: #0c3966;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #1E90FF;
+}
